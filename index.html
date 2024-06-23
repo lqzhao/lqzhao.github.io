@@ -41,6 +41,70 @@
               </td>
             </tr>
        </tbody></table>
+
+          
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+          <td style="padding:20px;width:100%;vertical-align:middle">
+            <heading>News</heading>
+            <p>
+              <li style="margin: 5px;" >
+                <b>2024-05:</b> One paper on lane detection is accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83">T-IP</a>.
+              </li>
+              <li style="margin: 5px;" >
+                <b>2024-04:</b> One paper on 3D object detection is accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046">T-MM</a>.
+              </li>
+              <li style="margin: 5px;" >
+                <b>2024-02:</b> Two papers on 3D occupancy prediction is accepted to <a href="https://cvpr2024.thecvf.com/">CVPR 2024</a>.
+              </li>
+              <li style="margin: 5px;" >
+                <b>2024-01:</b> One paper on explainable deep learning is accepted to <a href="https://iclr.cc/Conferences/2024">ICLR 2024</a>.
+              </li>
+              <li style="margin: 5px;" >
+                <b>2023-09:</b> One paper on deep metric learning is accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">T-PAMI</a>.
+              </li>
+              <li style="margin: 5px;" >
+                <b>2023-09:</b> One paper on unsupervised indoor depth completion is accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76">T-CSVT</a>.
+              </li>
+              <li style="margin: 5px;" >
+                <b>2023-07:</b> Three papers on representation learning and 3D occpuacy prediction are accepted to <a href="https://iccv2023.thecvf.com/">ICCV 2023</a>.
+              </li>
+              <li style="margin: 5px;" >
+                <b>2023-01:</b> Two papers on 3D occpuacy prediction and deep metric learning are accepted to <a href="https://cvpr2023.thecvf.com/">CVPR 2023</a>.
+              </li>
+              <li style="margin: 5px;" >
+                <b>2023-01:</b> One paper on explainable deep networks is accepted to <a href="https://iclr.cc/Conferences/2023">ICLR 2023</a>.
+              </li>
+              <li style="margin: 5px;" >
+                <b>2023-01:</b> One paper on deep metric learning is accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">T-PAMI</a>.
+              </li>
+              <!-- <li style="margin: 5px;" >
+                <b>2022-12:</b> One paper on 3D object detection is accepted to <a href="https://aaai.org/Conferences/AAAI-23/">AAAI 2023</a>.
+              </li>
+              <li style="margin: 5px;" >
+                <b>2022-09:</b> One paper on surrounding depth estimation is accepted to <a href="https://corl2022.org/">CoRL 2022</a>.
+              </li>
+              <li style="margin: 5px;" >
+                <b>2022-07:</b> One paper on dynamic metric learning is accepted to <a href="https://eccv2022.ecva.net/">ECCV 2022</a>.
+              </li>
+              <li style="margin: 5px;" >
+                <b>2022-03:</b> Two papers on explainable metric learning and 3D object detection are accepted to <a href="https://cvpr2022.thecvf.com/">CVPR 2022</a>.
+              </li>
+              <li style="margin: 5px;" >
+                <b>2021-07:</b> One paper on deep metric learning is accepted to <a href="http://iccv2021.thecvf.com/">ICCV 2021</a>.
+              </li>
+              <li style="margin: 5px;" >
+                <b>2021-02:</b> One paper on deep metric learning is accepted to <a href="https://cvpr2021.thecvf.com/">CVPR 2021</a>.
+              </li>
+              <li style="margin: 5px;" >
+                <b>2020-07:</b> One paper on room layout estimation is accepted to <a href="https://eccv2020.eu/">ECCV 2020</a>.
+              </li> -->
+            </p>
+          </td>
+        </tr>
+      </tbody></table>
+
+          
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
               <td style="padding:20px;width:100%;vertical-align:middle;text-align: justify">
@@ -54,8 +118,41 @@
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
+    <tr onmouseout="AASE_stop()" onmouseover="AASE_start()">
+      <td style="padding:20px;width:25%;vertical-align:top;text-align: justify">
+        <div class="one">
+          <div class="two" id='AASE'><video  width=100% muted autoplay loop>
+          <source src="images/AASE.png" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/AASE.png' width=100%>
+        </div>
+        <script type="text/javascript">
+          function AASE_start() {
+            document.getElementById('AASE').style.opacity = "1";
+          }
+
+          function AASE_stop() {
+            document.getElementById('AASE').style.opacity = "0";
+          }
+          AASE_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:top;text-align: justify">
+        <span class="papertitle">Ambiguousness-Aware State Evolution for Action Prediction </span>  
+        <br>      
+        <span class="author"><strong>Lei Chen</strong>, Jiwen Lu#, Zhanjie Song, Jie Zhou </span>       
+        <br> 
+        <span class="publications"><em>IEEE Transactions on Circuits and Systems for Video Technology (<strong>TCSVT</strong>), 2022. </em></span>
+        <br> 
+        <p>
+          We propose an ambiguousness-aware state evolution (AASE) method which represents the uncertainty of the input sequence and evolves the subsequent skeletons to generate a reasonable full-length sequence for action prediction.
+        </p> 
+      </td>
+    </tr>
 
 
+            
 
 
 
