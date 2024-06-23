@@ -109,6 +109,39 @@
       </td>
     </tr>
 
+                <tr onmouseout="LowRankOcc_stop()" onmouseover="LowRankOcc_start()">
+      <td style="padding:20px;width:25%;vertical-align:top;text-align: justify">
+        <div class="one">
+          <div class="two" id='LowRankOcc'><video  width=100% muted autoplay loop>
+          <source src="images/LowRankOcc.png" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/LowRankOcc.png' width=110%>
+        </div>
+        <script type="text/javascript">
+          function LowRankOcc_start() {
+            document.getElementById('LowRankOcc').style.opacity = "1";
+          }
+
+          function LowRankOcc_stop() {
+            document.getElementById('LowRankOcc').style.opacity = "0";
+          }
+          LowRankOcc_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:top;text-align: justify">
+        <span class="papertitle">LowRankOcc: Tensor Decomposition and Low-Rank Recovery for Vision-based 3D Semantic Occupancy Prediction </span>  
+        <br>      
+        <span class="author"><strong>Linqing Zhao</strong>, <a href="https://xuxw98.github.io/"> Xiuwei Xu</a>, <a href="https://ziweiwangthu.github.io/"> Ziwei Wang</a>, <a href="https://scholar.google.com/citations?user=UgadGL8AAAAJ&hl=zh-CN&oi=ao"> Yunpeng Zhang</a>, <a href="https://boruizhang.site/"> Borui Zhang</a>, <a href="https://wzzheng.net/"> Wenzhao Zheng</a>, Dalong Du, <a href="https://www.au.tsinghua.edu.cn/info/1152/3127.htm">Jie Zhou</a>, <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/">Jiwen Lu</a># </span>       
+        <br> 
+        <span class="publications"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2024. </em></span>
+        <br> 
+        <p>
+          We propose LowRankOcc to address spatial redundancy in 3D semantic occupancy prediction, leveraging the inherent low-rank property of occupancy data.
+        </p> 
+      </td>
+    </tr>
+
 
             
 
