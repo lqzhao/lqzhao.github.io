@@ -212,6 +212,42 @@
       </td>
     </tr>
 
+                <tr onmouseout="LowRankOcc_stop()" onmouseover="LowRankOcc_start()">
+      <td style="padding:20px;width:25%;vertical-align:top;text-align: justify">
+        <div class="one">
+          <div class="two" id='LowRankOcc'><video  width=100% muted autoplay loop>
+          <source src="images/SCMT.png" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/surroundocc.png' width=110%>
+        </div>
+        <script type="text/javascript">
+          function LowRankOcc_start() {
+            document.getElementById('LowRankOcc').style.opacity = "1";
+          }
+
+          function LowRankOcc_stop() {
+            document.getElementById('LowRankOcc').style.opacity = "0";
+          }
+          LowRankOcc_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:top;text-align: justify">
+        <span class="papertitle">SurroundOcc: Multi-Camera 3D Occupancy Prediction for Autonomous Driving </span>  
+        <br>      
+        <span class="author"><a href="https://weiyithu.github.io/"> Yi Wei*</a>, <strong>Linqing Zhao</strong>*, <a href="https://wzzheng.net/"> Wenzhao Zheng</a>, 
+                        <a href="https://scholar.google.com/citations?user=NmwjI0AAAAAJ&hl=zh-CN&oi=sra"> Zheng Zhu</a>, 
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>,
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a># </span>       
+        <br> 
+        <span class="publications"><em>IEEE International Conference on Computer Vision (<strong>ICCV</strong>), 2023 </em></span>
+        <br> 
+        <p>
+          We design a pipeline to generate dense occupancy ground truths without expensive occupancy annotations, which enables the training of more dense 3D occupancy prediction models.
+        </p> 
+      </td>
+    </tr>
+
 
 
 
