@@ -96,6 +96,43 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+                <tr onmouseout="LowRankOcc_stop()" onmouseover="LowRankOcc_start()">
+      <td style="padding:20px;width:25%;vertical-align:top;text-align: justify">
+        <div class="one">
+          <div class="two" id='LowRankOcc'><video  width=100% muted autoplay loop>
+          <source src="images/HSA.png" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/SAFNet.png' width=110%>
+        </div>
+        <script type="text/javascript">
+          function LowRankOcc_start() {
+            document.getElementById('LowRankOcc').style.opacity = "1";
+          }
+
+          function LowRankOcc_stop() {
+            document.getElementById('LowRankOcc').style.opacity = "0";
+          }
+          LowRankOcc_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:top;text-align: justify">
+        <span class="papertitle">Similarity-Aware Fusion Network for 3D Semantic Segmentation </span>  
+        <br>      
+        <span class="author">
+              <strong>Linqing Zhao</strong>, 
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu</a>#,
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou</a>
+        <br> 
+	<span class="publications"><em>IEEE Transactions on Multimedia (<strong>TMM</strong>), 2025. </em></span>
+        <span class="publications"><em>IEEE/RSJ International Conference on Intelligent Robots and Systems (<strong>IROS</strong>), 2021. </em></span>
+        <br> 
+        <p>
+          We propose a similarity-aware fusion network (SAFNet) to adaptively fuse 2D images and 3D point clouds for Multi-Modal semantic segmentation.
+        </p> 
+      </td>
+    </tr>
+
 
     <tr onmouseout="StructLane_stop()" onmouseover="StructLane_start()">
       <td style="padding:20px;width:25%;vertical-align:top;text-align: justify">
@@ -379,41 +416,6 @@
     </tr>
 
 
-                <tr onmouseout="LowRankOcc_stop()" onmouseover="LowRankOcc_start()">
-      <td style="padding:20px;width:25%;vertical-align:top;text-align: justify">
-        <div class="one">
-          <div class="two" id='LowRankOcc'><video  width=100% muted autoplay loop>
-          <source src="images/HSA.png" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/SAFNet.png' width=110%>
-        </div>
-        <script type="text/javascript">
-          function LowRankOcc_start() {
-            document.getElementById('LowRankOcc').style.opacity = "1";
-          }
-
-          function LowRankOcc_stop() {
-            document.getElementById('LowRankOcc').style.opacity = "0";
-          }
-          LowRankOcc_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:top;text-align: justify">
-        <span class="papertitle">Similarity-Aware Fusion Network for 3D Semantic Segmentation </span>  
-        <br>      
-        <span class="author">
-              <strong>Linqing Zhao</strong>, 
-              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu</a>#,
-              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou</a>
-        <br> 
-        <span class="publications"><em>IEEE/RSJ International Conference on Intelligent Robots and Systems (<strong>IROS</strong>), 2021. </em></span>
-        <br> 
-        <p>
-          We propose a similarity-aware fusion network (SAFNet) to adaptively fuse 2D images and 3D point clouds for 3D semantic segmentation.
-        </p> 
-      </td>
-    </tr>
 
 
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
