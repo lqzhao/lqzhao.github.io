@@ -55,7 +55,7 @@
             <h2>News</h2>
             <p>
               <li style="margin: 5px;" >
-                <b>2025-06:</b> One paper on RGB SLAM and two co-author papers on Camera Pose Estimation and Indoor 3D Object Detection are accepted to <a href="https://www.iros25.org/">IROS 2025</a>.
+                <b>2025-06:</b> Two papers on RGB SLAM and Camera Pose Estimation, and one co-author paper on Indoor 3D Object Detection are accepted to <a href="https://www.iros25.org/">IROS 2025</a>.
               <li style="margin: 5px;" >
                 <b>2025-05:</b> Achieved an 'Excellent' rating in the postdoctoral midterm assessment, ranking top 3 of 24.
               </li>
@@ -104,6 +104,42 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+                <tr onmouseout="LowRankOcc_stop()" onmouseover="LowRankOcc_start()">
+      <td style="padding:20px;width:25%;vertical-align:top;text-align: justify">
+        <div class="one">
+          <div class="two" id='LowRankOcc'><video  width=100% muted autoplay loop>
+          <source src="images/iGaussian.png" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/iGaussian.png' width=110%>
+        </div>
+        <script type="text/javascript">
+          function LowRankOcc_start() {
+            document.getElementById('LowRankOcc').style.opacity = "1";
+          }
+
+          function LowRankOcc_stop() {
+            document.getElementById('LowRankOcc').style.opacity = "0";
+          }
+          LowRankOcc_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:top;text-align: justify">
+        <span class="papertitle">iGaussian: Real-Time Camera Pose Estimation via Feed-Forward 3D Gaussian Splatting Inversion </span>  
+        <br>      
+        <span class="author">
+              Hao Wang, <strong>Linqing Zhao</strong>*, <a href="https://xuxw98.github.io/"> Xiuwei Xu</a>, <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu</a>, Haibin Yan#
+              
+        <br> 
+        <span class="publications"><em>IEEE/RSJ International Conference on Intelligent Robots and Systems (<strong>IROS</strong>), 2025. </em></span>
+        <br> 
+        <p>
+           We propose iGaussian, a two-stage feed-forward framework that achieves real-time camera pose estimation through direct 3D Gaussian inversion.
+        </p> 
+      </td>
+    </tr>
+
+		  
                 <tr onmouseout="LowRankOcc_stop()" onmouseover="LowRankOcc_start()">
       <td style="padding:20px;width:25%;vertical-align:top;text-align: justify">
         <div class="one">
